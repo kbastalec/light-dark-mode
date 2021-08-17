@@ -1,6 +1,3 @@
-const DARK_THEME = 'dark'
-const LIGHT_THEME = 'light'
-
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
 const nav = document.getElementById('nav');
 const toggleIcon = document.getElementById('toggle-icon');
