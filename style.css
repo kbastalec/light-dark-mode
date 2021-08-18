@@ -258,3 +258,108 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+/* Media Query: Tablet or Smaller*/
+
+@media screen and (max-width: 1023px) {
+  #home {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-container {
+    margin-left: 25px;
+  }
+
+  #image1,
+  #image2,
+  #image3 {
+    width: 80%;
+    height: auto;
+  }
+
+  .text-box {
+    width: 90%;
+  }
+
+  .fab {
+    font-size: 80px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: flex;
+    flex-flow: column;
+  }
+
+  #home {
+    display: flex;
+    align-items: center;
+  }
+
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 165px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+
+  #image1,
+  #image2,
+  #image3 {
+    width: 45%;
+    height: auto;
+  }
+
+  #projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-box {
+    width: 80%;
+    text-align: justify;
+  }
+
+  .fab {
+    font-size: 50px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
